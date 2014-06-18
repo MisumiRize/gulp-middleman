@@ -1,0 +1,31 @@
+{
+  "name": "gulp-middleman",
+  "version": "0.0.1",
+  "description": "Gulp plugin for running Middleman",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MisumiRize/gulp-middleman.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "middleman"
+  ],
+  "author": "Rize MISUMI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MisumiRize/gulp-middleman/issues"
+  },
+  "homepage": "https://github.com/MisumiRize/gulp-middleman",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "*",
+    "coffee-script": "*",
+    "gulp": ">=3.7",
+    "gulp-coffee": "*",
+    "gulp-coffeelint": "*",
+    "gulp-load-plugins": "*",
+    "mocha": "*"
+  }
+}
