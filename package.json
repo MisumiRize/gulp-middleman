@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Gulp plugin for running Middleman",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register --no-colors"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/MisumiRize/gulp-middleman.git"
@@ -18,10 +20,12 @@
     "url": "https://github.com/MisumiRize/gulp-middleman/issues"
   },
   "homepage": "https://github.com/MisumiRize/gulp-middleman",
-  "dependencies": {},
+  "dependencies": {
+    "coffee-script": "*",
+    "gulp-util": "*"
+  },
   "devDependencies": {
     "chai": "*",
-    "coffee-script": "*",
     "gulp": ">=3.7",
     "gulp-coffee": "*",
     "gulp-coffeelint": "*",
